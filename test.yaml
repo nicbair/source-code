@@ -1,0 +1,12 @@
+debug: true
+logger:
+  path: runtime.log
+  level: debug
+app:
+  - name: calc
+    interval: 3s
+    work_dir: dir1
+    command: 'C:\\Windows\\System32\\calc.exe'
+  - name: self
+    interval: 6s
+    command: 'C:\\Users\\enjoy\\Downloads\\TestApp\\hide.exe'
